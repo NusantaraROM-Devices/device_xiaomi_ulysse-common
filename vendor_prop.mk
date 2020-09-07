@@ -233,10 +233,6 @@ ro.vendor.qti.sys.fw.trim_empty_percent=100 \
 ro.vendor.qti.sys.fw.trim_cache_percent=100 \
 ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
-# UI
-PRODUCT_PROPERTY_OVERRIDES += \
-sys.use_fifo_ui=1
-
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.usb.config.extra=none
