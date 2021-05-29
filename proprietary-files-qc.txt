@@ -1,57 +1,68 @@
-# ADSP - from LA.UM.9.6.2.r1-03300-89xx.0
-vendor/bin/adsprpcd|b736b00857d64e74a3b9be887215124d186f95d5
-vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
-vendor/lib/libadsprpc.so|7eaefa319ad9bb87fa0eb87ece5a7352b25f7aa7
-vendor/lib/libadsp_default_listener.so|7bed67d442ce79de62b9a6ba398df321ef6b7397
-vendor/lib/libfastcvadsp_stub.so|70772d0bc39617430e27a21f89fccd93cc757185
-vendor/lib/libfastcvopt.so|7fcf799dc0d0f84fe291c9c74df9e3c8a5111def
-vendor/lib/libmdsprpc.so|892b79c66ce1d9099b3345ba34d26f3d5fba9529
-vendor/lib64/libadsprpc.so|489632b3b7bf1e5a0234b56711b13c4a8ae3d0ef
-vendor/lib64/libadsp_default_listener.so|0324e797f6fdd15680df7fdacc51f713e40b9806
-vendor/lib64/libfastcvadsp_stub.so|f4535845bc4f40e3cb8e79d090e5ed87b0acfbb0
-vendor/lib64/libfastcvopt.so|7694148433f552b28a412ec6d98622e2602ee95c
-vendor/lib64/libmdsprpc.so|3f501d256736b54032c779f27335a105b90982f1
+# ADSP - from onc QKQ1.191008.001 V11.0.1.0.QFLCNXM
+vendor/bin/adsprpcd|cae0d0a86d4c49210ca0d7f5f075543f925da29e
+vendor/lib64/libadsp_default_listener.so|bb139681ee345ab837caf2dddc4c84641d95b55a
+vendor/lib64/libadsprpc.so|77e0281974b0288ed6e1811a7d5277be6df31d12
+vendor/lib64/libfastcvadsp_stub.so|67d3e419fd0bd15b2197c3eac6247a6de54d8f5b
+vendor/lib64/libfastcvopt.so|b21bddb496e684f82fec7c302cdf5d8039d803c5
+vendor/lib64/libmdsprpc.so|34887fbebf9791aff387a7e3b47b34be5221b1f3
+vendor/lib64/libsdsprpc.so|23f6acdaf437c885a2cd215b45db1617af57fc2e
+vendor/lib/libadsp_default_listener.so|d1c56ced08c710381c40b41b63789cddb7775c98
+vendor/lib/libadsprpc.so|2a30e43f2e218d23fa9ae34c83c39a4159f7463a
+vendor/lib/libfastcvadsp_stub.so|e1a47f372e8652f5cb96f3f9183c80076d74d543
+vendor/lib/libfastcvopt.so|135c4906db6df70bf643d963dc88ae8fe5a91458
+vendor/lib/libmdsprpc.so|bcd62e1e7fd924b92f121a623dae28d2835d4fa9
+vendor/lib/libsdsprpc.so|41259d3a7b9b0472bd8aa4ceaa39d0ac6bd9e2e3
 
-# ADSP modules - from LA.UM.9.6.2.r1-03300-89xx.0
+# ADSP modules - from onc QKQ1.191008.001 V11.0.1.0.QFLCNXM
+vendor/lib/rfsa/adsp/dirac_resource.dar|eba2b3cfad9d4666546473d991e512d6c820a7d7
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
+
+# Audio - from onc QKQ1.191008.001 V11.0.1.0.QFLCNXM
+vendor/bin/audioflacapp|e388abb5ceeabcc0471180ccceb05926945f50fc
+vendor/lib64/libacdb-fts.so|beba464dd2eef5958b046a392389bfd5459ab6f5
+vendor/lib64/libacdbloader.so|743b39c36bd8ad15f658b3f993fe5071e727fc80
+vendor/lib64/libacdbrtac.so|3b12c1761892f242dc8408edcedb90d0ade1671e
+vendor/lib64/libadiertac.so|f6aff966f2674a1cdf92005f0adb1f29bb05f25f
+vendor/lib64/libaudcal.so|bef9885ffee370645fdb2187d800b601872d4268
+vendor/lib64/libaudioalsa.so|0a8ba586d91720df0648f2a9d3d06b384a574955
+vendor/lib64/libaudioconfigstore.so|6c87feb3db8916b7f3d382097eb40740b13d3bf6
+-vendor/lib64/libaudio_log_utils.so|0a12cfbb9177a2831e7e938d37ee1c69250f37cf
+vendor/lib64/libaudioparsers.so|ecf13589a2307d1455820adbafdb896a83ccb7dc
+vendor/lib64/libqtigef.so|adfacbd30ab88f67c1672bb36172790f5be46f04
+vendor/lib64/libtinycompress_vendor.so|a00d33e5740f2e32a75de323ed2687b50e975ae6
+vendor/lib64/soundfx/libqcbassboost.so|2c8fa391bd6942db174a3e59d92909b403acdc26
+vendor/lib64/soundfx/libqcvirt.so|55ff24260ade41d17365a196e8c3ee7950cbd8ee
+vendor/lib/libacdb-fts.so|fdd083d9abf2e0b13d484e3a03759e49c71b080b
+vendor/lib/libacdbloader.so|1aa8b2885829385674af52ab144462cf8b6aab4b
+vendor/lib/libacdbrtac.so|34f5c1ed98df85d615190f16d805380def2e5fa0
+vendor/lib/libadiertac.so|b305c1790de066bd95b9e066c67e6c544f6db4c9
+vendor/lib/libadm.so|976d7afc3601f7f5b412d37bb6d2d42539fd2f8e
+vendor/lib/libaudcal.so|635bfe72bb25564bd0acbb926939ade1e7cd1087
+vendor/lib/libaudioalsa.so|25def7597e74ea37e3637ea9b58f4a30ce0ba090
+vendor/lib/libaudioconfigstore.so|e25f28811d703158e13d88a77cf46e1cc25a822d
+-vendor/lib/libaudio_log_utils.so|87b9b069d50f6f90064308150d02dfa50910836a
+vendor/lib/libaudioparsers.so|55fa9ef6f1cbbda57c9bf0d8c408a0d407b52031
+vendor/lib/libdrc.so|e5bb262ef16b331e7a6c0a3c4d812c00f16e1c76
+vendor/lib/libqtigef.so|bc1712389bd1e7ccc3c754f9f32a8d98c3f7698d
+vendor/lib/libsurround_3mic_proc.so|0f6fc4183279e0cec9cc5d3e922559c77239e613
+vendor/lib/libtinycompress_vendor.so|088b6f3066982f7b4ae7c40a5bb912d36585a4c4
+vendor/lib/soundfx/libqcbassboost.so|3bd1bbb22238f6bd8f782d74632d8150578ae184
+vendor/lib/soundfx/libqcreverb.so|b1e49693d4061aa128fe9244bdb3c5e58a55d73f
+vendor/lib/soundfx/libqcvirt.so|5802ef2fb6cbb17518240a03ac6defac139a78ad
 
 # ANT+ - from LA.UM.9.6.2.r1-03300-89xx.0
 system_ext/lib/com.qualcomm.qti.ant@1.0.so|6b8eb143ce3e33e474c7bc28ff3cc58b86c6369c
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|7fffcdca309796183708d9e345d3cd97461d901d
-
-# Audio libraries - from LA.UM.9.6.2.r1-03300-89xx.0
-system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
-system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
-vendor/lib/libacdb-fts.so|ce5d9ee6188712bb55658fc00548aef96ec0ff17
-vendor/lib/libacdbloader.so|3ac5309140dbcd3ffb778ed908d3055f4b5f959b
-vendor/lib/libacdbrtac.so|58e01597eb162cc5783d9ca6da54e46cf67ad638
-vendor/lib/libadiertac.so|d7d70e99afaad0de116bf757b0621b9bb4dcd93d
-vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
-vendor/lib/libaudcal.so|eb40b2659ed470196cce8950dd74eca96932b2aa
-vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
-vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
-vendor/lib/libqtigef.so|fbb307c0da385bf09cbdef714e8fc1ecfc7ba6fd
-vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
-vendor/lib/soundfx/libasphere.so|c5d774c899e30c8e14ff20b1790df553b34e41ec
-vendor/lib/soundfx/libqcbassboost.so|b915309dd5fb502c8f58d4da5c0330dc4d9a3419
-vendor/lib/soundfx/libqcreverb.so|c7c2809d3447c8a3b24d368abdc49323f367b31b
-vendor/lib/soundfx/libqcvirt.so|4bf817ee780ede398d2928715f10a198ad70e757
-vendor/lib64/libacdb-fts.so|8bf7d9173cdf503ffa240be382d8bfb06c6dfdb5
-vendor/lib64/libacdbloader.so|1bafd08fd83df68df81d77e5861bf2a0ee4fe410
-vendor/lib64/libacdbrtac.so|8975cdf11a072bd10c9c8aaf41612a072376ab3c
-vendor/lib64/libadiertac.so|e6cddad2fe64c4b6fb667c95b918d235dd6da01d
-vendor/lib64/libaudcal.so|854016f08b7c31d1e9152f7bd79f61b5e447d583
-vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
-vendor/lib64/libqtigef.so|b3f1cb946809bfe20a4afced73b4fd24c5591421
-vendor/lib64/soundfx/libasphere.so|0074f7645a035955e35341f76aa414608ab569ba
-vendor/lib64/soundfx/libqcbassboost.so|d193d746eb37506ce53dc0c0c83ae6f0361b1ae3
-vendor/lib64/soundfx/libqcreverb.so|d3c300f753d5ccc0e63e4b1c7c6763a80a2c35dd
-vendor/lib64/soundfx/libqcvirt.so|57a81c9063b492d85ac72b72b179cd237d47e236
 
 # Bluetooth - from LA.UM.9.6.2.r1-03300-89xx.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
