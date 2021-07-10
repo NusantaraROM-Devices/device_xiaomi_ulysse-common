@@ -16,9 +16,6 @@
 
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor.mk)
 
-# ResurrectionRemix
-BUILD_RR_WALLPAPERS := true
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -234,7 +231,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8937 \
     memtrack.msm8937 \
     libdisplayconfig \
-    libdisplayconfig.qti.vendor \
+    libdisplayconfig.qti \
     libqdMetaData.vendor \
     liboverlay \
     libqdMetaData \
