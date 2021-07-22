@@ -9,7 +9,4 @@ allow qti_init_shell { sysfs sysfs_dm }:file { write setattr };
 allow qti_init_shell vfat:dir { search };
 allow qti_init_shell system_data_file:dir { write };
 allow qti_init_shell system_data_file:dir { getattr };
-allow qti_init_shell default_prop:property_service set;
-allow qti_init_shell ctl_start_prop:property_service set;
 allow qti_init_shell sysctl_dt2w:file getattr;
-set_prop(qti_init_shell, default_prop);
