@@ -52,7 +52,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_CONFIG := ulysse_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ulysse
 TARGET_KERNEL_VERSION := 4.9
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/gabuters-clang
 ifeq ($(TARGET_KERNEL_VERSION),4.9)
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 TARGET_KERNEL_CLANG_COMPILE := true
@@ -63,7 +63,7 @@ endif
 ifneq ($(wildcard vendor/qcom/sdclang-8.0/linux-x86_64),)
 TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang-8.0/linux-x86_64
 endif
-TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CLANG_VERSION := gabuters
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
