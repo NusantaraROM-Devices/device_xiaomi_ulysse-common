@@ -424,6 +424,9 @@ PRODUCT_PACKAGES += \
     libshims_dpmd \
     libshim_wfd
 
+# Shipping level
+BOARD_SHIPPING_API_LEVEL := 30
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
