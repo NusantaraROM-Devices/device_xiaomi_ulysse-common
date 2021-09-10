@@ -447,6 +447,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    Remove_Packages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
