@@ -576,3 +576,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
+
+# Inherit XiaomiParts
+$(call inherit-product, vendor/xiaomi/part/part.mk)
