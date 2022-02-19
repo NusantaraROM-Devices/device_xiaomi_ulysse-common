@@ -148,8 +148,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.msm8937 \
     libmm-qcamera \
-    libshim_camera \
-    GoogleCameraGo
+    libshim_camera
 
 PRODUCT_PACKAGES += \
     libandroid_shim \
@@ -224,10 +223,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
-
-# GalleryGo
-PRODUCT_PACKAGES += \
-    GalleryGo
 
 # GPS
 PRODUCT_PACKAGES += \
